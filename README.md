@@ -10,5 +10,9 @@ how to minimize the linux kernel for CentOS 8
 add new system service into linux kernel
 ## lab05
 add new system service with arguments and return result to app
+## lab06
+write a c program to implement copy one file and verify it
+## lab07
+write a c program to implement minishell
 ## more
 coming soon
