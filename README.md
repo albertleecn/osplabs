@@ -8,5 +8,7 @@ download linux kernel source code and compile it in CentOS 8
 how to minimize the linux kernel for CentOS 8
 ## lab04
 add new system service into linux kernel
+## lab05
+add new system service with arguments and return result to app
 ## more
 coming soon
