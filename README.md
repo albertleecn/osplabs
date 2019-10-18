@@ -1,5 +1,7 @@
 # labs of OSP 2019 Fall
 operating system principles and labs
+## lab00
+[Please read the letter firstly:LINUX is obsolete](/doc/LINUXisobsolete.pdf)
 ## lab01
 install CentOS 8 in Virtual Machine
 ## lab02
