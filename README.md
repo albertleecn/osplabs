@@ -20,9 +20,8 @@ write a c program to implement copy one directory ant it's subdiectory, the prog
 
 md5:
 
+```
 gcc -lcrypto
-
-
 int main()
 {
     MD5_CTX ctx;
@@ -41,7 +40,7 @@ int main()
     printf("\n");
     return 0;
 }
-
+```
 ## lab08
 write a c program to implement product and comsumer problem which is described by textbook
 ## lab09
