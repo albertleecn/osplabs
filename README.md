@@ -42,7 +42,7 @@ int main()
 }
 ```
 ## lab08
-write a c program to implement product and comsumer problem which is described by textbook
+write a c program to implement product and comsumer problem which is described by textbook and lab08
 ## lab09
 write a c program to implement minishell
 ## more
