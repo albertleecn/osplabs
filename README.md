@@ -19,7 +19,10 @@ write a c program to implement copy one directory ant it's subdiectory, the prog
 
 
 md5:
+
 gcc -lcrypto
+
+
 int main()
 {
     MD5_CTX ctx;
