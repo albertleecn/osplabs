@@ -45,6 +45,8 @@ int main()
 write a c program to implement product and comsumer problem which is described by textbook and lab08
 ## lab09
 write a c program to implement minishell
+## lab10
+boot computer 1
 ## more
 coming soon
 ![UNIX操作系统有感](/img/unix_poem.png)
