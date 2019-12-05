@@ -50,6 +50,7 @@ boot computer 1
 ## lab11
 boot computer 2 (to protect mode)
 [lab11 files](/labs/lab11-helloworld-protected-for-std)
+
 ## more
 coming soon
 ![UNIX操作系统有感](/img/unix_poem.png)
