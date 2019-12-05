@@ -47,6 +47,8 @@ write a c program to implement product and comsumer problem which is described b
 write a c program to implement minishell
 ## lab10
 boot computer 1
+## lab11
+boot computer 2 (to protect mode)
 ## more
 coming soon
 ![UNIX操作系统有感](/img/unix_poem.png)
