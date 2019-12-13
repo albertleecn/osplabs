@@ -50,6 +50,9 @@ boot computer 1
 ## lab11
 boot computer 2 (to protect mode)
 [lab11 files](/labs/lab11-helloworld-protected-for-std)
+## lab12
+boot computer to PM with c
+[lab12 files](/labs/lab12-helloworldc-protected-for-std)
 
 ## more
 coming soon
