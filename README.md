@@ -53,6 +53,9 @@ boot computer 2 (to protect mode)
 ## lab12
 boot computer to PM with c
 [lab12 files](/labs/lab12-helloworldc-protected-for-std)
+## lab13
+fat32 filesystem
+[lab13 files](/labs/lab13fat32)
 
 ## more
 coming soon
