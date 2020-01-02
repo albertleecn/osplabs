@@ -15,7 +15,7 @@ add new system service with arguments and return result to app
 ## lab06
 write a c program to implement copy one file and verify it
 ## lab07
-write a c program to implement copy one directory ant it's subdiectory, the program also verifies the result
+write a c program to implement copy one directory ant it's subdirectory(s), the program also verifies the result
 
 
 md5:
@@ -42,7 +42,7 @@ int main()
 }
 ```
 ## lab08
-write a c program to implement product and comsumer problem which is described by textbook and lab08
+write a c program to implement producer and consumer problem which is described by textbook and lab08
 ## lab09
 write a c program to implement minishell
 ## lab10
