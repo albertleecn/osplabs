@@ -57,7 +57,7 @@ boot computer to PM with c
 fat32 filesystem
 [lab13 files](/labs/lab13fat32)
 ## lab14
-final project
+final project (FileSystem)
 
 ## more
 coming soon
