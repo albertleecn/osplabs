@@ -15,6 +15,6 @@ comming soon
 
 
 ## readings
-[SOSP](http://www.sosp.org/)
+* [SOSP](http://www.sosp.org/)
 
-[OSDI](https://www.usenix.org/conference/osdi20)
+* [OSDI](https://www.usenix.org/conference/osdi20)
