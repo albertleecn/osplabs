@@ -9,10 +9,10 @@ see textbook
 comming soon
 
 ## labs of OSP 2020 Fall
-[Please read the letter firstly:LINUX is obsolete](/doc/LINUXisobsolete.pdf)
+[Please read the letter firstly:LINUX is obsolete](/AllinAll/others/LINUXisobsolete.pdf)
 
 ### lab01
-[install Ubuntu20.04 LTS in Virtual Machine] (/AllinAll/labs/lab01installlinux)
+[Install Ubuntu20.04 LTS in Virtual Machine](/AllinAll/labs/lab01installlinux)
 
 ### more labs
 comming soon
