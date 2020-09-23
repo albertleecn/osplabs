@@ -30,6 +30,15 @@ Virtual Disk: >=60GB
 UserName: Your Name + Your Student ID
 
 ### 3. Post-Install Ubuntu
-Insert Guest Addtional CD Image to install enhanced drivers for Guest Ubuntu
+
+3.1 Update the Ubuntu online
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+3.2 Insert Guest Addtional CD Image to install enhanced drivers for Guest Ubuntu
+```
+sudo usermod -a -G vboxsf YourUserName
+```
 
 ### 4. Using Ubuntu and Write the first c program on Ubuntu
