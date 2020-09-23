@@ -42,3 +42,19 @@ sudo usermod -a -G vboxsf YourUserName
 ```
 
 ### 4. Using Ubuntu and Write the first c program on Ubuntu
+
+4.1 Install GCC
+```
+sudo apt-get install build-essential
+```
+
+4.2 Write "Hello world" Program with c : hello.c
+Please Hello World, Hello Your Instructor, Hello Yourself
+
+4.3 Compile the program 
+gcc -o hello  hello.c
+
+4.4 Execute the program
+```
+./hello
+```
