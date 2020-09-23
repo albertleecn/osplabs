@@ -12,7 +12,7 @@ comming soon
 [Please read the letter firstly:LINUX is obsolete](/doc/LINUXisobsolete.pdf)
 
 ### lab01
-[install Ubuntu20.04 LTS in Virtual Machine] (./AllinAll/labs/lab01installlinux)
+[install Ubuntu20.04 LTS in Virtual Machine] (/AllinAll/labs/lab01installlinux)
 
 ### more labs
 comming soon
