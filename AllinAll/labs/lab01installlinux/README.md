@@ -1,4 +1,5 @@
 #Install Ubuntu/Linux
+
 ##Target
 1. Install Ubuntu on VirtualBox
 
@@ -16,7 +17,7 @@ VirtualBox 6.1 (2020.09)
 ###Ubuntu
 Ubuntu 20.04 LTS (2020.09)
 
-[Ubuntu](https://ubuntu.com/download/desktop)
+[Ubuntu] (https://ubuntu.com/download/desktop)
 
-[Ubuntu](https://ubuntu.com/download/desktop/thank-you?version=20.04.1&architecture=amd64)
+[Ubuntu] (https://ubuntu.com/download/desktop/thank-you?version=20.04.1&architecture=amd64)
 
