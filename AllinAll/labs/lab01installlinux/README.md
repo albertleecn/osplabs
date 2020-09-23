@@ -39,6 +39,7 @@ sudo apt-get upgrade
 3.2 Insert Guest Addtional CD Image to install enhanced drivers for Guest Ubuntu
 ```
 sudo usermod -a -G vboxsf YourUserName
+Sudo reboot
 ```
 
 ### 4. Using Ubuntu and Write the first c program on Ubuntu
