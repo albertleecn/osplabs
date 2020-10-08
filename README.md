@@ -22,7 +22,7 @@ comming soon
 ## readings
 * [Please read the letter firstly:LINUX is obsolete](/AllinAll/others/LINUXisobsolete.pdf)
 
-* [Singularity: Rethinking the Software StackHunt, G.C. and J.R. Larus, ](/AllinAll/others/osr2007_rethinkingsoftwarestack.pdf
+* [Singularity: Rethinking the Software Stack](/AllinAll/others/osr2007_rethinkingsoftwarestack.pdf)
 
 Hunt, G.C. and J.R. Larus, Singularity: Rethinking the Software Stack. SIGOPS Oper. Syst. Rev., 2007. 41(2): p. 37–49.
 
