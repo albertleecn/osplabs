@@ -9,12 +9,12 @@
 
 ## Tools
 
-### GCC
-GCC
+### Install GCC Software Colletion
 ```
 sudo apt-get install build-essential
 ```
-
+### How to use GCC
+* [gcc and make](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
 ### md5
 ```
