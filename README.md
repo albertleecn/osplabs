@@ -20,7 +20,7 @@ comming soon
 comming soon
 
 ## readings
-* [Please read the letter firstly:LINUX is obsolete](/AllinAll/others/LINUXisobsolete.pdf)
+* [LINUX is obsolete](/AllinAll/others/LINUXisobsolete.pdf)
 
 * [Singularity: Rethinking the Software Stack](/AllinAll/others/osr2007_rethinkingsoftwarestack.pdf)
 
