@@ -10,6 +10,9 @@ comming soon
 
 ## labs of OSP 2020 Fall
 
+### lab02
+[Write a c/c++ program to implement copy one file](/AllinAll/labs/lab02copyfile)
+
 ### lab01
 [Install Ubuntu20.04 LTS in Virtual Machine](/AllinAll/labs/lab01installlinux)
 
