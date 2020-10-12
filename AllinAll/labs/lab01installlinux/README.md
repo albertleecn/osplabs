@@ -23,6 +23,15 @@ Ubuntu 20.04 LTS (2020.09)
 
 ## How to do
 
+### 0. Download and verify the ISO: ubuntu-20.04.1-desktop-amd64.iso
+```
+$ sha256sum.exe ubuntu-20.04.1-desktop-amd64.iso
+b45165ed3cd437b9ffad02a2aad22a4ddc69162470e2622982889ce5826f6e3d *ubuntu-20.04.1-desktop-amd64.iso
+$ md5sum.exe ubuntu-20.04.1-desktop-amd64.iso
+77fc715a283e41d0ad33d6418a9ba128 *ubuntu-20.04.1-desktop-amd64.iso
+$
+```
+
 ### 1. Create a virtual machine
 Virtual Disk: >=60GB
 
