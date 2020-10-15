@@ -23,6 +23,8 @@ md5sum fileA fileB
 
 ## How to do
 
+write a c program to implement copy one file, and the program also verifies the result
+
 ### 1. Example
 
 ```
@@ -58,7 +60,7 @@ int main(int argc, char* argv[]){
 }
 ```
 
-### 2. write a c program to implement copy one file, and the program also verifies the result
+### 2. compile the source code and run
 
 ```
 gcc -o mycopy  mycopy.c
