@@ -55,7 +55,7 @@ Download and compile the latest linux kernel
 * [linux kernel 5.8.15](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.8.15.tar.xz)
 
 ```
-cd ~/Documents
+cd ~
 pwd
 ```
 
@@ -76,7 +76,10 @@ sudo ln -s `pwd`/linux-5.8.15 /usr/src/linux
 
 ```
 cd /usr/src/linux
-cp /boot/config-`uname -r`.config .config
+cp /boot/config-`uname -r`   .config
+```
+
+```
 make oldconfig
 make gconfig
 ```
