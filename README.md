@@ -10,6 +10,9 @@ comming soon
 
 ## labs of OSP 2020 Fall
 
+### lab03
+[Download and compile the latest linux kernel](/AllinAll/labs/lab03compilelinux)
+
 ### lab02
 [Write a c/c++ program to implement copy one file](/AllinAll/labs/lab02copyfile)
 
