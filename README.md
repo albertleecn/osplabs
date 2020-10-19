@@ -8,7 +8,15 @@ operating system principles and labs
 ### more chapters
 comming soon
 
-## labs of OSP 2020 Fall
+## Homeworks
+
+### HW02: before October 30th
+[Read the GNU GPLv3 and Please write down your comments on the book (handwritten)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+### HW01: end
+How to promote the development of operating system industry 
+
+## Labs
 
 ### lab03
 [Download and compile the latest linux kernel](/AllinAll/labs/lab03compilelinux)
