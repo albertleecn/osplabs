@@ -13,22 +13,26 @@ comming soon
 
 ## Homeworks
 
-### HW02: before October 30th
-[Read the GNU GPLv3 and Please write down your comments on the book (handwritten)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-
 ### HW01: end
 How to promote the development of operating system industry 
 
+### HW02: before October 30th
+[Read the GNU GPLv3 and Please write down your comments on the book (handwritten)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
 ## Labs
 
-### lab03
-[Download and compile the latest linux kernel](/AllinAll/labs/lab03compilelinux)
+### lab01
+[Install Ubuntu20.04 LTS in Virtual Machine](/AllinAll/labs/lab01installlinux)
 
 ### lab02
 [Write a c/c++ program to implement copy one file](/AllinAll/labs/lab02copyfile)
 
-### lab01
-[Install Ubuntu20.04 LTS in Virtual Machine](/AllinAll/labs/lab01installlinux)
+### lab03
+[Download and compile the latest linux kernel](/AllinAll/labs/lab03compilelinux)
+
+### lab04
+[Write a c/c++ program to implement copy one directory](/AllinAll/labs/lab04copydir)
+
 
 ### more labs
 comming soon
