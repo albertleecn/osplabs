@@ -3,7 +3,7 @@
 ## Target
 1. Write a c/c++ program
 
-2. To implement copy one diretory and it's subdiretories
+2. To implement copy one diretory and it's subdiretories with multi-threads
 
 3. Gcc
 
@@ -32,16 +32,22 @@ struct dirent
     har d_name[256];
 };
 
-opendir
-readdir
-closedir
+opendir()
+readdir()
+closedir()
+```
+
+### posix thread
+```
+#include <pthread.h>
+pthread_create()
 ```
 
 ## How to do
 
 write a c program to implement copy one diretory and it's subdiretories, and the program also verifies the result
 
-### Example of traverse one directory
+### 1. Example of traverse one directory
 
 ```
 #include <sys/types.h>
@@ -60,3 +66,39 @@ main()
     closedir(dir);
 }
 ```
+
+### 2. Example of multi-threads
+
+```
+#include <pthread.h>
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+void *ThreadFunc()
+{
+    static int count = 1;
+    printf ("Create thread %d\n", count);
+    count++;
+}
+main(void)
+{
+    int     err;
+    pthread_t tid;
+    while (1)
+    {
+           err= pthread_create(&tid, NULL, ThreadFunc, NULL);
+           if(err != 0){
+               printf("can't create thread: %s\n",strerror(err));
+           break;
+           }
+          usleep(2000);
+    }
+}
+```
+
+```
+gcc pthread_test.c  -o pthread_test  -lpthread
+./pthread_test
+```
+
+
