@@ -16,7 +16,7 @@ comming soon
 ### HW01: end
 How to promote the development of operating system industry 
 
-### HW02: before October 30th
+### -> HW02: before November 6th
 [Read the GNU GPLv3 and Please write down your comments on the book (handwritten)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Labs
@@ -30,9 +30,11 @@ How to promote the development of operating system industry
 ### lab03
 [Download and compile the latest linux kernel](/AllinAll/labs/lab03compilelinux)
 
-### lab04
+### -> lab04
 [Write a c/c++ program to implement copy one directory](/AllinAll/labs/lab04copydir)
 
+### lab05
+[Write a c program to implement the producer-consumer problem](/AllinAll/labs/lab05pcp)
 
 ### more labs
 comming soon
