@@ -43,49 +43,82 @@ write a c program to implement the producer-consumer problem, which has 5 produc
 #include <unistd.h>
 #include <stdlib.h>
 
+#define MAX_THEADS 5
+
+/*thread's args*/
 typedef struct ST_ARGS
 {
     int id;
     char name[32];
 }ARGS;
 
+/*thread business*/
 void *ThreadFunc(void *args)
 {
     ARGS* pArgs=(ARGS*)args;
     usleep(1000+rand()%1000);
     printf ("thread id = %d\n", pArgs->id);
+    usleep(1000+rand()%1000);
+    printf ("thread id = %d,%ld again\n", pArgs->id,pthread_self());
 }
 
 int main(void)
 {
-    int     err;
-    pthread_t tid;
     int     i=0;
+    pthread_t tid[MAX_THEADS];
+    ARGS    myArgs[MAX_THEADS];
+    int     err;
+
+    /*random seed initial*/
     srand((unsigned)time(NULL));
-    while (1)
+
+    /*create threads*/
+    while (i<MAX_THEADS)
     {
-        i++; 
-        if (i>9) break;
-        ARGS* pmyargs=(ARGS*)malloc(sizeof(ARGS));
-        pmyargs->id=i;
-        err= pthread_create(&tid, NULL, ThreadFunc, pmyargs);
+        myArgs[i].id=i;
+        err= pthread_create(&tid[i], NULL, ThreadFunc, &myArgs[i]);
         if(err != 0){
             printf("can't create thread: %s\n",strerror(err));
             break;
         }else
         {
-            printf("create thread(%ld)\n",tid);
+            printf("create thread(%ld,%d)\n",tid[i],myArgs[i].id);
         }
-        usleep(2000);
+        i++; 
+        usleep(100);
     }
+
+    /*main thread should wait other threads */
+    for (i=0;i<MAX_THEADS;i++)
+    {
+        pthread_join(tid[i],NULL);
+    }
+
     return 0;
 }
 
+
 ```
 
 ```
-gcc pthread_test.c  -o pthread_test  -lpthread
-./pthread_test
+$gcc pthread_test.c  -o pthread_test  -lpthread
+$./pthread_test
+create thread(140286004549376,0)
+create thread(140285996156672,1)
+create thread(140285987763968,2)
+create thread(140285979371264,3)
+create thread(140285970978560,4)
+thread id = 0
+thread id = 1
+thread id = 0,140286004549376 again
+thread id = 2
+thread id = 1,140285996156672 again
+thread id = 3
+thread id = 3,140285979371264 again
+thread id = 2,140285987763968 again
+thread id = 4
+thread id = 4,140285970978560 again
+$
 ```
 
 
