@@ -1,4 +1,4 @@
-# Write a c/c++ program to implement copy one diretory
+# Write a c/c++ program to implement the producer-consumer problem
 
 ## Target
 1. Write a c/c++ program
