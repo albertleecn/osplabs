@@ -26,7 +26,7 @@ comming soon
 ### HW01: end
 How to promote the development of operating system industry 
 
-### HW02: before November 6th
+### HW02: end
 [Read the GNU GPLv3 and Please write down your comments on the book (handwritten)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Labs
@@ -59,6 +59,9 @@ comming soon
 * [Singularity: Rethinking the Software Stack](/AllinAll/others/osr2007_rethinkingsoftwarestack.pdf)
 
 Hunt, G.C. and J.R. Larus, Singularity: Rethinking the Software Stack. SIGOPS Oper. Syst. Rev., 2007. 41(2): p. 37–49.
+
+
+* [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 
 ## Research Institutions
