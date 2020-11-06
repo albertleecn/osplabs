@@ -74,7 +74,7 @@ main()
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-void *ThreadFunc()
+void *ThreadFunc(void *arg)
 {
     static int count = 1;
     printf ("Create thread %d\n", count);

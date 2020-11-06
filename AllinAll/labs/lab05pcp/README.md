@@ -40,7 +40,7 @@ write a c program to implement the producer-consumer problem, which has 5 produc
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-void *ThreadFunc()
+void *ThreadFunc(void* arg)
 {
     static int count = 1;
     printf ("Create thread %d\n", count);
