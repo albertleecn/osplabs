@@ -26,7 +26,7 @@ comming soon
 ### HW01: end
 How to promote the development of operating system industry 
 
-### -> HW02: before November 6th
+### HW02: before November 6th
 [Read the GNU GPLv3 and Please write down your comments on the book (handwritten)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Labs
