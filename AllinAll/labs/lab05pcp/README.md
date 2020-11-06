@@ -36,30 +36,51 @@ write a c program to implement the producer-consumer problem, which has 5 produc
 ### Example of multi-threads
 
 ```
+#include<stdio.h>
 #include <pthread.h>
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-void *ThreadFunc(void* arg)
+#include <stdlib.h>
+
+typedef struct ST_ARGS
 {
-    static int count = 1;
-    printf ("Create thread %d\n", count);
-    count++;
+    int id;
+    char name[32];
+}ARGS;
+
+void *ThreadFunc(void *args)
+{
+    ARGS* pArgs=(ARGS*)args;
+    usleep(1000+rand()%1000);
+    printf ("thread id = %d\n", pArgs->id);
 }
-main(void)
+
+int main(void)
 {
     int     err;
     pthread_t tid;
+    int     i=0;
+    srand((unsigned)time(NULL));
     while (1)
     {
-           err= pthread_create(&tid, NULL, ThreadFunc, NULL);
-           if(err != 0){
-               printf("can't create thread: %s\n",strerror(err));
-           break;
-           }
-          usleep(2000);
+        i++; 
+        if (i>9) break;
+        ARGS* pmyargs=(ARGS*)malloc(sizeof(ARGS));
+        pmyargs->id=i;
+        err= pthread_create(&tid, NULL, ThreadFunc, pmyargs);
+        if(err != 0){
+            printf("can't create thread: %s\n",strerror(err));
+            break;
+        }else
+        {
+            printf("create thread(%ld)\n",tid);
+        }
+        usleep(2000);
     }
+    return 0;
 }
+
 ```
 
 ```
