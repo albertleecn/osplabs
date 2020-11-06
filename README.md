@@ -12,6 +12,7 @@ operating system principles and labs
 [IPC](/AllinAll/coursewares/OS_03_processthread_02_ipcEnok.pdf)
 
 ### Process/Thread Scheduling
+[Scheduling](/AllinAll/coursewares/OS_03_processthread_03_schedulingEn.pdf)
 
 ### Deadlock
 
