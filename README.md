@@ -39,11 +39,15 @@ How to promote the development of operating system industry
 ### lab03
 [Download and compile the latest linux kernel](/AllinAll/labs/lab03compilelinux)
 
-### -> lab04
+### lab04
 [Write a c/c++ program to implement copy one directory](/AllinAll/labs/lab04copydir)
 
-### lab05
+### -> lab05
 [Write a c program to implement the producer-consumer problem](/AllinAll/labs/lab05pcp)
+
+### lab06
+[Write a c program to implement the dining philosophers problem](/AllinAll/labs/lab06ipcphilosophers)
+
 
 ### more labs
 comming soon
