@@ -18,6 +18,8 @@ operating system principles and labs
 [Deadlock](/AllinAll/coursewares/OS_03_processthread_04_deadlocksEn.pdf)
 
 ### Memory Management
+[Basic Memory Management](/AllinAll/coursewares/OS_04_memory_01_basicEn.pdf)
+
 
 ### File System
 
