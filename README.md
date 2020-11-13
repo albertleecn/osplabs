@@ -15,6 +15,7 @@ operating system principles and labs
 [Scheduling](/AllinAll/coursewares/OS_03_processthread_03_schedulingEn.pdf)
 
 ### Deadlock
+[Deadlock](/AllinAll/coursewares/OS_03_processthread_04_deadlocksEn.pdf)
 
 ### Memory Management
 
@@ -43,10 +44,10 @@ How to promote the development of operating system industry
 ### lab04
 [Write a c/c++ program to implement copy one directory](/AllinAll/labs/lab04copydir)
 
-### -> lab05
+### lab05
 [Write a c program to implement the producer-consumer problem](/AllinAll/labs/lab05pcp)
 
-### lab06
+### ->lab06
 [Write a c program to implement the dining philosophers problem](/AllinAll/labs/lab06ipcphilosophers)
 
 
