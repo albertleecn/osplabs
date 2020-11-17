@@ -52,8 +52,11 @@ How to promote the development of operating system industry
 ### lab05
 [Write a c program to implement the producer-consumer problem](/AllinAll/labs/lab05pcp)
 
-### ->lab06
+### lab06
 [Write a c program to implement the dining philosophers problem](/AllinAll/labs/lab06ipcphilosophers)
+
+### ->lab07
+[Add a new System Call into the Linux Kernel](/AllinAll/labs/lab07addnewsyscall)
 
 
 ### more labs
