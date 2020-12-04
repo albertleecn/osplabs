@@ -31,6 +31,8 @@ asmlinkage long sys_alcall(int cmd, char* buf);
 
 #### in kernel/sys.c
 
+Please modify the implementation, because it is just a framework.
+
 ```
 SYSCALL_DEFINE2(alcall,int,cmd,char*,buf)
 {
@@ -67,7 +69,15 @@ add:
 
 #### re-configure the kernel
 
-download the configure file in the current project
+download the configure file in the current project:
+linux_config_ref20201203
+
+in the directory of the kernel source code:
+```
+cp linux_config_ref20201203 .config
+make gconfig
+```
+
 
 
 #### recompile the kernel
