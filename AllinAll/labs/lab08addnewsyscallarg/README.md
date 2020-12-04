@@ -75,6 +75,7 @@ linux_config_ref20201203
 in the directory of the kernel source code:
 ```
 cp linux_config_ref20201203 .config
+make oldconfig
 make gconfig
 ```
 
