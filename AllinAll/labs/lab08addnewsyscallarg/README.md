@@ -21,13 +21,17 @@ sudo apt-get install build-essential
 ### step 1:
 
 in include/linux/syscalls.h
+
 add the defintion of the new system call:
+```
 asmlinkage long sys_alcall(int cmd, char* buf);
+```
 
 ### step 2:
 
 #### in kernel/sys.c
 
+```
 SYSCALL_DEFINE2(alcall,int,cmd,char*,buf)
 {
     struct task_struct *p;
@@ -37,22 +41,27 @@ SYSCALL_DEFINE2(alcall,int,cmd,char*,buf)
          printk("%-20s %-6d %-6ld\n",p->comm,p->pid,p->state);
     return 0;
 }
+```
 
 #### functions in kernel:
 
+```
 copy_to_user
 copy_from_user
 sprintf
 strcpy
 strcat
 ...
+```
 
 ### step 3:
 
 in arch/x86/entry/syscalls/syscall_64.tbl
 
 add:
+```
 4??     common  alcall          __x64_sys_alcall
+```
 
 ### step 4:
 
@@ -60,12 +69,15 @@ add:
 
 download the configure file in the current project
 
+
 #### recompile the kernel
 
+```
 make clean
 make -j5
 sudo  make  modules_install
 sudo make install
+```
 
 #### reboot with the new kernel
 
