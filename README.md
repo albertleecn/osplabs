@@ -58,9 +58,11 @@ How to promote the development of operating system industry
 ### lab07
 [Add a new System Call into the Linux Kernel](/AllinAll/labs/lab07addnewsyscall)
 
-### ->lab08
+### lab08
 [Add a new System Call into the Linux Kernel](/AllinAll/labs/lab08addnewsyscallarg)
 
+### ->lab09
+[Write a c program to implement a mini shell](/AllinAll/labs/lab09minishell)
 
 ### more labs
 comming soon
