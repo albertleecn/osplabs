@@ -24,10 +24,14 @@ operating system principles and labs
 [Virtual Memory Management](/AllinAll/coursewares/OS_04_memory_02_virtualEn.pdf)
 
 ### File System
+[File System](/AllinAll/coursewares/OS_06_filesystem_01_basic.pdf)
 
+### I/O Management
+Read the text book
 
-### more chapters
-comming soon
+### Operating System Design
+Read the text book
+
 
 ## Homeworks
 
