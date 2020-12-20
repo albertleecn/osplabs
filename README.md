@@ -27,7 +27,7 @@ operating system principles and labs
 [File System](/AllinAll/coursewares/OS_06_filesystem_01_basic.pdf)
 
 ### I/O Management
-Read the text book
+[Input & Output Devices](/AllinAll/coursewares/OS_05_IO_ManagementEn01Basic.pdf)
 
 ### Operating System Design
 Read the text book
