@@ -33,12 +33,7 @@ operating system principles and labs
 Read the text book
 
 ## Homeworks
-
-### HW01: end
-(to be continued) 
-
-### HW02: end
-(to be continued) 
+[homeworks](/AllinAll/homeworks)
 
 ## Labs
 [labs](/AllinAll/labs)
