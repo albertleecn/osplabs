@@ -3,7 +3,9 @@ operating system principles and labs
 ## coursewares of OSP 2021 Fall
 
 ### introduction
-[Introduction](/AllinAll/coursewares/OS_01_IntroductionBstructEn.pdf)
+[Histrory](/AllinAll/coursewares/OS_01_IntroductionAhistroryEn.pdf)
+
+[Basic Structure](/AllinAll/coursewares/OS_01_IntroductionBstructEn.pdf)
 
 ### Process Management
 [Process & Thread Concepts](/AllinAll/coursewares/OS_03_processthread_01_basicEnV2020V1.pdf)
