@@ -36,14 +36,14 @@ Read the text book
 ## Homeworks
 
 ### HW01: end
-How to promote the development of operating system industry 
+(to be continued) 
 
 ### HW02: end
-[Read the GNU GPLv3 and Please write down your comments on the book (handwritten)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+(to be continued) 
 
 ## Labs
 
-### lab01
+### ->lab01
 [Install Ubuntu20.04 LTS in Virtual Machine](/AllinAll/labs/lab01installlinux)
 
 ### lab02
@@ -67,7 +67,7 @@ How to promote the development of operating system industry
 ### lab08
 [Add a new System Call into the Linux Kernel](/AllinAll/labs/lab08addnewsyscallarg)
 
-### ->lab09
+### lab09
 [Write a c program to implement a mini shell](/AllinAll/labs/lab09minishell)
 
 ### more labs
