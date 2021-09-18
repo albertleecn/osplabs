@@ -8,14 +8,14 @@
 ## Tools
 
 ### VirtualBox
-VirtualBox 6.1 (2020.09)
+VirtualBox 6.1 
 
 [VirtualBox](https://www.virtualbox.org/)
 1. VirtualBox 6.1.14 platform packages
 2. VirtualBox 6.1.14 Oracle VM VirtualBox Extension Pack
 
 ### Ubuntu
-Ubuntu 20.04 LTS (2020.09)
+Ubuntu 20.04 LTS 
 
 [Ubuntu] (https://ubuntu.com/download/desktop)
 
