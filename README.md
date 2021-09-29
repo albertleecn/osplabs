@@ -1,7 +1,7 @@
 # OSP 2021 Fall
 operating system principles and labs
 ## coursewares of OSP 2021 Fall
-[labs](/AllinAll/coursewares)
+[coursewares](/AllinAll/coursewares)
 
 ## Homeworks
 [homeworks](/AllinAll/homeworks)
