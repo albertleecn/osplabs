@@ -1,11 +1,15 @@
 # Write a c/c++ program to implement copy one file
 
 ## Target
-1. Write a c/c++ program
+1. Write two c/c++ programs
+
+1.1 stdio lib (fopen,fread)
+
+1.2 unistd lib (open,read)
 
 2. To implement copy one file
 
-3. Gcc
+3. Compile the source code
 
 ## Tools
 
