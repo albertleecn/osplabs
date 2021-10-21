@@ -6,6 +6,11 @@ operating system principles and labs
 ## Homeworks
 [homeworks](/AllinAll/homeworks)
 
+### ->HW01
+[free software v.s. commercial software](/AllinAll/homeworks)
+
+(Note: The report shall be submitted before October 30)
+
 ## Labs
 [labs](/AllinAll/labs)
 
