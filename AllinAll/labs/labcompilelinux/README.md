@@ -27,7 +27,6 @@ sudo apt-get install wget
 ```
 
 ```
-sudo apt-get install gnome-core-devel
 sudo apt-get install pkg-config
 sudo apt-get install libgtk2.0-dev
 sudo apt-get install libcanberra-gtk-module
@@ -49,10 +48,12 @@ uname -a
 ## How to do
 
 Download and compile the latest linux kernel
+### the latest linux kernel
+Linux Stable Kernel: 5.14.14  (2021.10.26)
 
 ### 1. Download the latest linux kernel from www.kernel.org
 
-* [linux kernel 5.8.15](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.8.15.tar.xz)
+* [linux kernel 5.14.14](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.14.14.tar.xz)
 
 ```
 cd ~
@@ -60,15 +61,15 @@ pwd
 ```
 
 ```
-wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.8.15.tar.xz
+wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.14.14.tar.xz
 ```
 
 ```
-tar xvJf linux-5.8.15.tar.xz
+tar xvJf linux-5.14.14.tar.xz
 ```
 
 ```
-sudo ln -s `pwd`/linux-5.8.15 /usr/src/linux
+sudo ln -s `pwd`/linux-5.14.14 /usr/src/linux
 ```
 
 
@@ -84,8 +85,14 @@ make oldconfig
 make gconfig
 ```
 
+### 3. add local version
 
-### 3. compile the latest linux kernel (long wait)
+add your ID as local version
+
+![image](linuxkernelconf_localversion.png)
+
+
+### 4. compile the latest linux kernel (long wait)
 
 compile the latest linux kernel
 ```
@@ -97,7 +104,7 @@ sudo make modules_install
 sudo make install
 ```
 
-### 4. boot ubuntu with the latest linux kernel
+### 5. boot ubuntu with the latest linux kernel
 
 ```
 sudo reboot

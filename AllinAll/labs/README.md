@@ -9,13 +9,13 @@ operating system principles and labs
 ### lab02
 [Write a c/c++ program to implement copy one file](/AllinAll/labs/labcopyfile)
 
-### ->lab03
+### lab03
 [Get the secret message](/AllinAll/labs/labsecret)
 
 ### ->lab04
 [add a new disk](/AllinAll/labs/labaddnewdisk)
 
-### lab
+### ->lab05
 [Download and compile the latest linux kernel](/AllinAll/labs/labcompilelinux)
 
 ### lab
