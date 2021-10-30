@@ -50,9 +50,19 @@ make gconfig
 
 ### 4. customized config
 
+
 #### 4.1. Customize and Minimize the latest linux kernel
 
+![image](linux_kernel_conf_items.png)
+
 ##### 4.1.1 Remove drivers' modules that do not have devices on this computer
+
+list all the devices of the local machine:
+```
+dmesg
+```
+
+![image](linux_kernel_localmachine_devicelist.png)
 
 ##### 4.1.2 Remove infrequent file system drivers 
 
@@ -100,7 +110,13 @@ Compare the sizes of different linux kernel:
 ls -l /boot
 ```
 
+![image](linux_kernel_reboot_kernelsize.png)
+
 Is the size of the latest kernel the smallest? 
 If not, please go back the 2th step.
+
+Record of Kernel File Size:
+
+VMlinuz-5.14.14AL: 2034000 Bytes
 
 End.
