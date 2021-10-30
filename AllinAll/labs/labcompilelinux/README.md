@@ -81,18 +81,42 @@ cp /boot/config-`uname -r`   .config
 ```
 
 ```
-make oldconfig
+yes " " | make oldconfig
 make gconfig
 ```
 
-### 3. add local version
+### 3. customized config
+
+#### 3.1. add local version
 
 add your ID as local version
 
 ![image](linuxkernelconf_localversion.png)
 
+#### 3.2. some errors 
 
-### 4. compile the latest linux kernel (long wait)
+##### 3.2.1 arch/x86/Makefile:148: CONFIG_X86_X32 enabled but no binutils support
+
+solution:disable the Binary Emulations
+
+![image](linux_kernel_config_x86_x32_resolve.png)
+
+##### 3.2.2 No rule to make target ‘debian/canonical-certs.pem‘, needed by ‘certs/x509_certificate_list 
+
+solution: set CONFIG_SYSTEM_TRUSTED_KEYS=""
+
+in crytoXXX item of config
+
+
+### (optional)4. clean the previous compilings
+
+If you want to recompile , please execute the following command to clean the previous work:
+ 
+```
+make clean
+```
+
+### 5. compile the latest linux kernel (long wait)
 
 compile the latest linux kernel
 ```
@@ -104,7 +128,11 @@ sudo make modules_install
 sudo make install
 ```
 
-### 5. boot ubuntu with the latest linux kernel
+Successfully compiled:
+
+![image](linux_kernel_comilinginstallok.png)
+
+### 6. boot ubuntu with the latest linux kernel
 
 ```
 sudo reboot
@@ -113,3 +141,7 @@ sudo reboot
 ```
 uname -a
 ```
+
+![image](linux_kernel_reboot_ok.png)
+
+End.
