@@ -14,6 +14,9 @@ operating system principles and labs
 ## Labs
 [labs](/AllinAll/labs)
 
+### ->lab06 (2021.11.1~2021.11.7)
+[Customize and minimize the latest linux kernel](/AllinAll/labs/labminimizedkernel)
+
 ### ->lab05
 [Download and compile the latest linux kernel](/AllinAll/labs/labcompilelinux)
 

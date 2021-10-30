@@ -18,6 +18,9 @@ operating system principles and labs
 ### ->lab05
 [Download and compile the latest linux kernel](/AllinAll/labs/labcompilelinux)
 
+### ->lab06
+[Customize and minimize the latest linux kernel](/AllinAll/labs/labminimizedkernel)
+
 ### lab
 [Write a c/c++ program to implement copy one directory](/AllinAll/labs/labcopydir)
 
