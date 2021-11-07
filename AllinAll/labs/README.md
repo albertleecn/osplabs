@@ -12,7 +12,7 @@ operating system principles and labs
 ### lab03
 [Get the secret message](/AllinAll/labs/labsecret)
 
-### ->lab04
+### lab04
 [add a new disk](/AllinAll/labs/labaddnewdisk)
 
 ### ->lab05
@@ -21,8 +21,8 @@ operating system principles and labs
 ### ->lab06
 [Customize and minimize the latest linux kernel](/AllinAll/labs/labminimizedkernel)
 
-### lab
-[Write a c/c++ program to implement copy one directory](/AllinAll/labs/labcopydir)
+### ->lab07
+[copy one directory using multi-processes](/AllinAll/labs/labcopydir_processes)
 
 ### lab
 [Write a c program to implement the producer-consumer problem](/AllinAll/labs/labpcp)
