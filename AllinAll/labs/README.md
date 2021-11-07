@@ -24,20 +24,6 @@ operating system principles and labs
 ### ->lab07
 [copy one directory using multi-processes](/AllinAll/labs/labcopydir_processes)
 
-### lab
-[Write a c program to implement the producer-consumer problem](/AllinAll/labs/labpcp)
-
-### lab
-[Write a c program to implement the dining philosophers problem](/AllinAll/labs/labipcphilosophers)
-
-### lab
-[Add a new System Call into the Linux Kernel](/AllinAll/labs/labaddnewsyscall)
-
-### lab
-[Add a new System Call into the Linux Kernel](/AllinAll/labs/labaddnewsyscallarg)
-
-### lab
-[Write a c program to implement a mini shell](/AllinAll/labs/labminishell)
 
 ### more labs
 comming soon
