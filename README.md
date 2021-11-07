@@ -6,10 +6,11 @@ operating system principles and labs
 ## Homeworks
 [homeworks](/AllinAll/homeworks)
 
-### ->HW01
-[free software v.s. commercial software](/AllinAll/homeworks)
+### ->HW02 (2021.11)
+[Compare process model with thread model](/AllinAll/homeworks)
 
-(Note: The report shall be submitted before October 30)
+
+(Note: The report shall be submitted before 11.26)
 
 ## Labs
 [labs](/AllinAll/labs)

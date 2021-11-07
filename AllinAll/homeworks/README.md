@@ -9,5 +9,12 @@ operating system principles and labs
 
 [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-### HW02: end
+### HW02: 
+
+比较进程模型与线程模型并探讨未来操作系统的执行体潜在形式
+
+### HW03:
+(to be continued) 
+
+### HW04: end
 (to be continued) 
