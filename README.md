@@ -38,6 +38,12 @@ Pu, C., H. Massalin, and J. Ioannidis. “The Synthesis Kernel” 1970.
 
 Cui, H, J Šimša, Y Lin, H Li, B Blum, X Xu, J Yang, Ga Gibson, and Re Bryant. “Parrot: A Practical Runtime for Deterministic, Stable, and Reliable Threads.” ACM, 2013.
 
+### Memory
+* [Transactional Memory: Architectural Support for Lock-Free Data Structures](/AllinAll/others/herlihy93transactional.pdf)
+
+Herlihy, Maurice, and J. Eliot B. Moss. “Transactional Memory: Architectural Support for Lock-Free Data Structures.” In Proceedings of the 20th Annual International Symposium on Computer Architecture, 289–300. ISCA ’93. New York, NY, USA: Association for Computing Machinery, 1993. https://doi.org/10.1145/165123.165164.
+
+
 ### FileSytem
 * [Hfs: A Hybrid File System Prototype for Improving Small File and Metadata Performance](http://dl.acm.org/doi/abs/10.1145/1272996.1273016)
 
