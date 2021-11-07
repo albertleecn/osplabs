@@ -25,13 +25,18 @@ operating system principles and labs
 
 
 ## readings
+### Linux OS
 * [LINUX is obsolete](/AllinAll/others/LINUXisobsolete.pdf)
 
 * [Singularity: Rethinking the Software Stack](/AllinAll/others/osr2007_rethinkingsoftwarestack.pdf)
 
 Hunt, G.C. and J.R. Larus, Singularity: Rethinking the Software Stack. SIGOPS Oper. Syst. Rev., 2007. 41(2): p. 37–49.
 
+### virtualization
+* [Firecracker: Lightweight Virtualization for Serverless Applications](/AllinAll/others/nsdi20-paper-agache.pdf)
+Agache, Alexandru, Marc Brooker, Alexandra Iordache, Anthony Liguori, Rolf Neugebauer, Phil Piwonka, and Diana-Maria Popa. “Firecracker: Lightweight Virtualization for Serverless Applications.” In 17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 20), 419–34. Santa Clara, CA: USENIX Association, 2020. 
 
+### Licenses
 * [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 
