@@ -33,6 +33,12 @@ Pu, C., H. Massalin, and J. Ioannidis. “The Synthesis Kernel” 1970.
 ### Linux
 * [LINUX is obsolete](/AllinAll/others/LINUXisobsolete.pdf)
 
+### FileSytem
+* [Hfs: A Hybrid File System Prototype for Improving Small File and Metadata Performance](http://dl.acm.org/doi/abs/10.1145/1272996.1273016)
+
+Zhang, Zhihui, and Kanad Ghose. “Hfs: A Hybrid File System Prototype for Improving Small File and Metadata Performance.” Acm Sigops Operating Systems Review 41, no. 3 (2007): 175–87.
+
+
 ### virtualization
 * [Firecracker: Lightweight Virtualization for Serverless Applications](/AllinAll/others/nsdi20-paper-agache.pdf)
 
