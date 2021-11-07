@@ -33,6 +33,11 @@ Pu, C., H. Massalin, and J. Ioannidis. “The Synthesis Kernel” 1970.
 ### Linux
 * [LINUX is obsolete](/AllinAll/others/LINUXisobsolete.pdf)
 
+### Concurrency
+* [Parrot: A Practical Runtime for Deterministic, Stable, and Reliable Threads](/AllinAll/others/parrot-sosp13.pdf)
+
+Cui, H, J Šimša, Y Lin, H Li, B Blum, X Xu, J Yang, Ga Gibson, and Re Bryant. “Parrot: A Practical Runtime for Deterministic, Stable, and Reliable Threads.” ACM, 2013.
+
 ### FileSytem
 * [Hfs: A Hybrid File System Prototype for Improving Small File and Metadata Performance](http://dl.acm.org/doi/abs/10.1145/1272996.1273016)
 
