@@ -26,11 +26,10 @@ operating system principles and labs
 
 ## readings
 
-### Licenses
 * [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Bibliography
-[OSP Bibliography](/AllinAll/labs/bibs)
+[OSP Bibliography](/AllinAll/bibs)
 
 
 ## Research Institutions
