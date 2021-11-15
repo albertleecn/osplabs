@@ -14,15 +14,14 @@ operating system principles and labs
 
 ## Labs
 [labs](/AllinAll/labs)
+### ->>lab08
+[copy one directory using multi-threads](/AllinAll/labs/labcopydir_threads)
+
 ### ->lab07
 [copy one directory using multi-processes](/AllinAll/labs/labcopydir_processes)
 
 ### ->lab06 
 [Customize and minimize the latest linux kernel](/AllinAll/labs/labminimizedkernel)
-
-### ->lab05
-[Download and compile the latest linux kernel](/AllinAll/labs/labcompilelinux)
-
 
 ## readings
 

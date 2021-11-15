@@ -15,7 +15,7 @@ operating system principles and labs
 ### lab04
 [add a new disk](/AllinAll/labs/labaddnewdisk)
 
-### ->lab05
+### lab05
 [Download and compile the latest linux kernel](/AllinAll/labs/labcompilelinux)
 
 ### ->lab06
@@ -24,6 +24,10 @@ operating system principles and labs
 ### ->lab07
 [copy one directory using multi-processes](/AllinAll/labs/labcopydir_processes)
 
+### ->>lab08
+[copy one directory using multi-threads](/AllinAll/labs/labcopydir_threads)
+
 
 ### more labs
 comming soon
+
