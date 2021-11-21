@@ -74,26 +74,31 @@ uname -a
 ### Step 6
 
 编写用户态测试程序testschello.c
-#include <unistd.h>
-#include <sys/syscall.h>
-#include <sys/types.h>
-#include <stdio.h>
-#define __NR_schello 335
+
+`#include <unistd.h>`
+`#include <sys/syscall.h>`
+`#include <sys/types.h>`
+`#include <stdio.h>`
+`#define __NR_schello 335
 int main(int argc, char *argv[])
 {
-syscall(_NR_schello);
-printf("ok! run dmesg | grep hello in terminal!\n");
-return 0;
-}
+syscall(_NR_schello);`
+`printf("ok! run dmesg | grep hello in terminal!\n");`
+`return 0;`
+`}`
 
 
 
 ### Step 7
 
 编译用户态测试程序testschello.c，并执行
+
 gcc -o testsc testschello.c
+
 ./testsc
+
 $dmesg | grep schello
+
 [ 1648.215250] Hello new system call schello!
 
 [testsc](linux_kernel_sc_01testsc.png)
