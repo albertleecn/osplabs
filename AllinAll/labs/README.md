@@ -18,15 +18,17 @@ operating system principles and labs
 ### lab05
 [Download and compile the latest linux kernel](/AllinAll/labs/labcompilelinux)
 
-### ->lab06
+### lab06
 [Customize and minimize the latest linux kernel](/AllinAll/labs/labminimizedkernel)
 
 ### ->lab07
 [copy one directory using multi-processes](/AllinAll/labs/labcopydir_processes)
 
-### ->>lab08
+### ->lab08
 [copy one directory using multi-threads](/AllinAll/labs/labcopydir_threads)
 
+### ->>lab09
+[Add a new system call into the linux kernel](/AllinAll/labs/labaddnewsyscall)
 
 ### more labs
 comming soon
