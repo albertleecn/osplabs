@@ -19,6 +19,10 @@ sudo apt-get install build-essential
 ## How to do
 see the pdf document: newsyscall2020.pdf
 
+### Step0
+
+new customized kernel config: [config1](config_ubuntu2004_20211129), [config2](config_5_14_14_ubuntuok)
+
 ### Step1
 
 include/linux/syscalls.h
