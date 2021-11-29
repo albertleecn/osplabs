@@ -1,4 +1,4 @@
-# Add a New System Call to get the list of all processes
+# Add a New System Call to list all processes
 
 ## Target
 1. Add a new system call with arguments into the linux kernel
@@ -38,7 +38,7 @@ SYSCALL_DEFINE2(alcall,int,cmd,char*,buf)
 {
     struct task_struct *p;
     printk("Hello new system call alcall (%d,%x)!\n",cmd,buf);
-    printk("%-20s %-6s %-6s\n","Name","Pid","Stat");
+    print("%-20s %-6s %-6s\n","Name","Pid","Stat");
     for (p = &init_task; (p = next_task(p)) != &init_task;)
          printk("%-20s %-6d %-6ld\n",p->comm,p->pid,p->state);
     return 0;
@@ -70,7 +70,7 @@ add:
 #### re-configure the kernel
 
 download the configure file in the current project:
-linux_config_ref20201203
+（optional）linux_config
 
 in the directory of the kernel source code:
 ```
@@ -98,6 +98,4 @@ reboot
 
 write a test program in user mode
 
-see the lab07
-
-
+see the previous lab.

@@ -15,14 +15,14 @@ operating system principles and labs
 ## Labs
 [labs](/AllinAll/labs)
 
-### ->>lab09
+### ->>lab10
+[Add a new system call to list all processes](/AllinAll/labs/labaddnewsyscallarg)
+
+### ->lab09
 [Add a new system call into the linux kernel](/AllinAll/labs/labaddnewsyscall)
 
 ### ->lab08
 [copy one directory using multi-threads](/AllinAll/labs/labcopydir_threads)
-
-### ->lab07
-[copy one directory using multi-processes](/AllinAll/labs/labcopydir_processes)
 
 ## readings
 
