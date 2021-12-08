@@ -16,7 +16,7 @@ operating system principles and labs
 [labs](/AllinAll/labs)
 
 ### ->>lab11
-[Add a new system call to list all processes](/AllinAll/labs/labipcphilosophers)
+[IPC: The Dining Philosophers Problem](/AllinAll/labs/labipcphilosophers)
 
 ### ->lab10
 [Add a new system call to list all processes](/AllinAll/labs/labaddnewsyscallarg)
