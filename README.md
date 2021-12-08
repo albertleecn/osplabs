@@ -6,23 +6,23 @@ operating system principles and labs
 ## Homeworks
 [homeworks](/AllinAll/homeworks)
 
-### ->HW02 (2021.11)
-[Compare process model with thread model](/AllinAll/homeworks)
+### ->HW04 (2021.12.31)
+[Read one paper and write a review](/AllinAll/homeworks)
 
-(Note: The report shall be submitted before 11.26)
-
+### ->HW03 (2021.12.31)
+[What is SPOOLing? Show a full example](/AllinAll/homeworks)
 
 ## Labs
 [labs](/AllinAll/labs)
 
-### ->>lab10
+### ->>lab11
+[Add a new system call to list all processes](/AllinAll/labs/labipcphilosophers)
+
+### ->lab10
 [Add a new system call to list all processes](/AllinAll/labs/labaddnewsyscallarg)
 
 ### ->lab09
 [Add a new system call into the linux kernel](/AllinAll/labs/labaddnewsyscall)
-
-### ->lab08
-[copy one directory using multi-threads](/AllinAll/labs/labcopydir_threads)
 
 ## readings
 

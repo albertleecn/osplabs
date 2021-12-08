@@ -24,15 +24,19 @@ operating system principles and labs
 ### lab07
 [copy one directory using multi-processes](/AllinAll/labs/labcopydir_processes)
 
-### ->lab08
+### lab08
 [copy one directory using multi-threads](/AllinAll/labs/labcopydir_threads)
 
 ### ->lab09
 [Add a new system call into the linux kernel](/AllinAll/labs/labaddnewsyscall)
 
-### ->>lab10
+### ->lab10
 [Add a new system call to list all processes](/AllinAll/labs/labaddnewsyscallarg)
 
-### more labs
-comming soon
+### ->>lab11
+[Add a new system call to list all processes](/AllinAll/labs/labipcphilosophers)
+
+### ->>lab12
+[Add a new system call to list all processes](/AllinAll/labs/labpcp)
+
 

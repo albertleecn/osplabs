@@ -13,8 +13,8 @@ operating system principles and labs
 
 比较进程模型与线程模型并探讨未来操作系统的执行体潜在形式
 
-### HW03:
-(to be continued) 
+### HW03: end
+[Read one paper and write a review](/AllinAll/bibs)
 
 ### HW04: end
 (to be continued) 
