@@ -34,9 +34,9 @@ operating system principles and labs
 [Add a new system call to list all processes](/AllinAll/labs/labaddnewsyscallarg)
 
 ### ->>lab11
-[Add a new system call to list all processes](/AllinAll/labs/labipcphilosophers)
+[IPC: The Dining Philosophers Problem](/AllinAll/labs/labipcphilosophers)
 
 ### ->>lab12
-[Add a new system call to list all processes](/AllinAll/labs/labpcp)
+[IPC: The Producer-Consumer Problem](/AllinAll/labs/labpcp)
 
 
