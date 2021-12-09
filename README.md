@@ -15,6 +15,9 @@ operating system principles and labs
 ## Labs
 [labs](/AllinAll/labs)
 
+### ->>lab12
+[IPC: The Producer-Consumer Problem](/AllinAll/labs/labpcp)
+
 ### ->>lab11
 [IPC: The Dining Philosophers Problem](/AllinAll/labs/labipcphilosophers)
 

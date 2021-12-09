@@ -27,7 +27,7 @@ pthread_create()
 write a c program to implement the dining philosophers problem
 ### The specific requirements are as follows
 
-* 5 philosophers
+* 5个哲学家就餐思考问题
 * 思考随机时间3~8s
 * 就餐随机时间2~10s
 * 就餐10次后结束
