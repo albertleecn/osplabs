@@ -1,10 +1,10 @@
-# OSP 2021 Fall
+# OSP 2022 Fall
 operating system principles and labs
-## coursewares of OSP 2021 Fall
-[coursewares](/AllinAll/coursewares)
+## Coursewares of OSP 2022 Fall
+[coursewares](/coursewares)
 
 ## Homeworks
-[homeworks](/AllinAll/homeworks)
+[homeworks](/homeworks)
 
 ### ->HW04 (2021.12.31)
 [Read one paper and write a review](/AllinAll/homeworks)
@@ -13,7 +13,7 @@ operating system principles and labs
 [What is SPOOLing? Show a full example](/AllinAll/homeworks)
 
 ## Labs
-[labs](/AllinAll/labs)
+[labs](/labs)
 
 ### ->>lab12
 [IPC: The Producer-Consumer Problem](/AllinAll/labs/labpcp)
@@ -32,7 +32,7 @@ operating system principles and labs
 * [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Bibliography
-[OSP Bibliography](/AllinAll/bibs)
+[OSP Bibliography](/bibs)
 
 
 ## Research Institutions
