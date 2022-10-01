@@ -12,16 +12,10 @@ operating system principles and labs
 ## Labs
 [labs](/labs)
 
-### ->>lab12
-[IPC: The Producer-Consumer Problem](/AllinAll/labs/labpcp)
-
-### ->>lab11
-[IPC: The Dining Philosophers Problem](/AllinAll/labs/labipcphilosophers)
-
-### ->lab10
+### ->lab02
 [Add a new system call to list all processes](/AllinAll/labs/labaddnewsyscallarg)
 
-### ->lab09
+### ->lab03
 [Add a new system call into the linux kernel](/AllinAll/labs/labaddnewsyscall)
 
 ## readings
