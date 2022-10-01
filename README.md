@@ -2,9 +2,6 @@
 Operating System Principles and Labs
 [Operating system](https://en.wikipedia.org/wiki/Operating_system)
 
-An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.
-![Operating System](/others/Operating_system_placement.svg.png)
-
 ```
 读史兼怀计算机时代 2022
 茫茫天宇化神工，草木虫猿一脉同。
@@ -12,6 +9,10 @@ An operating system (OS) is system software that manages computer hardware, soft
 炉中铜铁刀光冷，沙里硅晶智力聪。
 娲祖当年曾料否，人机别后领长风。
 ```
+
+An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.
+![Operating System](/others/Operating_system_placement.svg.png)
+
 ## Coursewares
 [coursewares](/coursewares)
 
