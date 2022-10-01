@@ -6,11 +6,8 @@ operating system principles and labs
 ## Homeworks
 [homeworks](/homeworks)
 
-### ->HW04 (2021.12.31)
-[Read one paper and write a review](/AllinAll/homeworks)
-
-### ->HW03 (2021.12.31)
-[What is SPOOLing? Show a full example](/AllinAll/homeworks)
+### ->HW01 (2022.10.15)
+[HW01](/homeworks)
 
 ## Labs
 [labs](/labs)
