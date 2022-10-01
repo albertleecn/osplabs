@@ -12,14 +12,10 @@ operating system principles and labs
 ## Labs
 [labs](/labs)
 
-### ->lab02
-[Add a new system call to list all processes](/AllinAll/labs/labaddnewsyscallarg)
-
 ### ->lab03
-[Add a new system call into the linux kernel](/AllinAll/labs/labaddnewsyscall)
+[Download and compile the latest linux kernel](/labs/lab03compilelinux)
 
 ## readings
-
 * [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Bibliography
@@ -31,3 +27,7 @@ operating system principles and labs
 * [SOSP](http://www.sosp.org/)
 
 * [OSDI](https://www.usenix.org/conference/osdi20)
+
+## one poem of operating system
+![UNIX](/others/unix_poem.png)
+
