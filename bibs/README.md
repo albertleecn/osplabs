@@ -19,7 +19,7 @@ Brian T. Lewis. 2003. Coroutine. In *Encyclopedia of computer science*. John Wil
 
 Chris Shaver and Edward A. Lee. 2012. The coroutine model of computation. In *Proceedings of the 15th international conference on model driven engineering languages and systems* (MODELS’12), Springer-Verlag, Berlin, Heidelberg, 319–334. DOI:https://doi.org/10.1007/978-3-642-33666-9_21
 
-* [Parrot: A Practical Runtime for Deterministic, Stable, and Reliable Threads](/AllinAll/others/parrot-sosp13.pdf)
+* [Parrot: A Practical Runtime for Deterministic, Stable, and Reliable Threads](/others/parrot-sosp13.pdf)
 
 Cui, H, J Šimša, Y Lin, H Li, B Blum, X Xu, J Yang, Ga Gibson, and Re Bryant. “Parrot: A Practical Runtime for Deterministic, Stable, and Reliable Threads.” ACM, 2013.
 
@@ -66,7 +66,7 @@ Oren Laadan and Jason Nieh. 2010. Operating system virtualization: Practice and 
 
 G. Shrikanth. 2009. Xen and the Art of Virtualization. *Dataquest* 27, 10 (2009), 97–97.
 
-* [Firecracker: Lightweight Virtualization for Serverless Applications](/AllinAll/others/nsdi20-paper-agache.pdf)
+* [Firecracker: Lightweight Virtualization for Serverless Applications](/others/nsdi20-paper-agache.pdf)
 
 Agache, Alexandru, Marc Brooker, Alexandra Iordache, Anthony Liguori, Rolf Neugebauer, Phil Piwonka, and Diana-Maria Popa. “Firecracker: Lightweight Virtualization for Serverless Applications.” In 17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 20), 419–34. Santa Clara, CA: USENIX Association, 2020. 
 
@@ -84,15 +84,15 @@ S. Zhuravlev, J. C. Saez, S. Blagodurov, A. Fedorova, and M. Prieto. 2013. Surve
 
 W. K. Thompson. Unix and Beyond: An Interview.
 
-* [The Synthesis Kernel](/AllinAll/others/TheSynthesisKernel.pdf)
+* [The Synthesis Kernel](/others/TheSynthesisKernel.pdf)
 
 Pu, C., H. Massalin, and J. Ioannidis. “The Synthesis Kernel” 1970.
 
-* [Singularity: Rethinking the Software Stack](/AllinAll/others/osr2007_rethinkingsoftwarestack.pdf)
+* [Singularity: Rethinking the Software Stack](/others/osr2007_rethinkingsoftwarestack.pdf)
 
 Hunt, G.C. and J.R. Larus, Singularity: Rethinking the Software Stack. SIGOPS Oper. Syst. Rev., 2007. 41(2): p. 37–49.
 
 ### Cases
 
-* [LINUX is obsolete](/AllinAll/others/LINUXisobsolete.pdf)
+* [LINUX is obsolete](/others/LINUXisobsolete.pdf)
 
