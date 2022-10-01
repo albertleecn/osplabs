@@ -1,6 +1,5 @@
 # OSP 2022 Fall
-Operating System Principles and Labs
-[Operating system](https://en.wikipedia.org/wiki/Operating_system)
+[Operating system](https://en.wikipedia.org/wiki/Operating_system) Principles and Labs
 
 ```
 读史兼怀计算机时代 2022
@@ -12,6 +11,8 @@ Operating System Principles and Labs
 
 An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.
 ![Operating System](/others/Operating_system_placement.svg.png)
+## remark
+[大家说](/remark)
 
 ## Coursewares
 [coursewares](/coursewares)
