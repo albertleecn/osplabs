@@ -66,9 +66,11 @@ reboot
 
 确认新内核是否成功运行：
 
+```
 uname -a
+```
 
-[new kernel](/labs/linux_kernel_sc_01uname.png)
+![new kernel](/labs/linux_kernel_sc_01uname.png)
 
 
 ### Step 6
