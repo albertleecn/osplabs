@@ -70,7 +70,7 @@ reboot
 uname -a
 ```
 
-![new kernel](/labs/linux_kernel_sc_01uname.png)
+![new kernel](./linux_kernel_sc_01uname.png)
 
 
 ### Step 6
