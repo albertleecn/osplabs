@@ -110,6 +110,6 @@ $dmesg | grep schello
 
 ```
 
-![testsc](/labs/linux_kernel_sc_01testsc.png)
+![testsc](./linux_kernel_sc_01testsc.png)
 
 ### End.
