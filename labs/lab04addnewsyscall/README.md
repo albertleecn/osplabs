@@ -106,7 +106,8 @@ $dmesg | grep schello
 
 [ 1648.215250] Hello new system call schello!
 
+```
+
 ![testsc](/labs/linux_kernel_sc_01testsc.png)
 
-```
 ### End.
