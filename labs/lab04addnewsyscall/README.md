@@ -68,7 +68,7 @@ reboot
 
 uname -a
 
-[new kernel](linux_kernel_sc_01uname.png)
+[new kernel](/labs/linux_kernel_sc_01uname.png)
 
 
 ### Step 6
@@ -106,7 +106,7 @@ $dmesg | grep schello
 
 [ 1648.215250] Hello new system call schello!
 
-![testsc](linux_kernel_sc_01testsc.png)
+![testsc](/labs/linux_kernel_sc_01testsc.png)
 
 ```
 ### End.
