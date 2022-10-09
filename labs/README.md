@@ -15,6 +15,9 @@ operating system principles and labs
 ### lab04
 [Add a new system call into the linux kernel](/labs/lab04addnewsyscall)
 
+### lab05
+[Add a new system call  to list all processes](/labs/lab05addnewsyscallb)
+
 ### more
 comming soon
 
