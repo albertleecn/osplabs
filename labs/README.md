@@ -9,7 +9,7 @@ operating system principles and labs
 ### lab02
 [Write a c/c++ program to implement copy one directory](/labs/lab02copydir)
 
-### ->lab03
+### lab03
 [Download and compile the latest linux kernel](/labs/lab03compilelinux)
 
 ### lab04
@@ -17,6 +17,10 @@ operating system principles and labs
 
 ### lab05
 [Add a new system call  to list all processes](/labs/lab05addnewsyscallb)
+
+### lab06
+[copy one directory using multi-processes](/labs/lab06copydirwithmultiprocesses)
+
 
 ### more
 comming soon
