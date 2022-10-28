@@ -21,6 +21,8 @@ operating system principles and labs
 ### lab06
 [copy one directory using multi-processes](/labs/lab06copydirwithmultiprocesses)
 
+### lab07
+[copy one directory using multi-threads](/labs/lab07copydirwithmultithreads)
 
 ### more
 comming soon

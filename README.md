@@ -31,8 +31,9 @@ For hardware functions such as input and output and memory allocation, the opera
 ## Labs
 [labs](/labs)
 
-### ->lab06
-[copy one directory using multi-processes](/labs/lab06copydirwithmultiprocesses)
+### ->lab07
+[copy one directory using multi-threads](/labs/lab07copydirwithmultithreads)
+
 
 ## readings
 * [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
