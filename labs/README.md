@@ -24,6 +24,9 @@ operating system principles and labs
 ### lab07
 [copy one directory using multi-threads](/labs/lab07copydirwithmultithreads)
 
+### lab08
+[write a c program to implement product and comsumer problem](/labs/lab08ProductorComsumer)
+
 ### more
 comming soon
 
