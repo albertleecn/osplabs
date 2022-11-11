@@ -31,8 +31,8 @@ For hardware functions such as input and output and memory allocation, the opera
 ## Labs
 [labs](/labs)
 
-### ->lab08
-[write a c program to implement product and comsumer problem](/labs/lab08ProductorComsumer)
+### ->lab09
+[write a c program to implement a mini-shell](/labs/lab09minishell)
 
 ## readings
 * [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)

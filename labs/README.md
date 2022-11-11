@@ -27,6 +27,9 @@ operating system principles and labs
 ### lab08
 [write a c program to implement product and comsumer problem](/labs/lab08ProductorComsumer)
 
+### lab09
+[write a c program to implement a mini-shell](/labs/lab09minishell)
+
 ### more
 comming soon
 
