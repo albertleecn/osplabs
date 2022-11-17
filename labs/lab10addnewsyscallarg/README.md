@@ -1,9 +1,9 @@
-# Add a New System Call to list all processes
+# Add a New System Call with args to list all processes
 
 ## Target
 1. Add a new system call with arguments into the linux kernel
-
 2. The new system call will return all processes information to user mode
+2. 实现内核中文件拷贝 (见pdf文档)
 
 
 ## Tools
