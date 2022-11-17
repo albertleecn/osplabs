@@ -30,6 +30,10 @@ operating system principles and labs
 ### lab09
 [write a c program to implement a mini-shell](/labs/lab09minishell)
 
+### lab10
+[Add a new system call with args to list all processes](/labs/lab10addnewsyscallarg)
+
+
 ### more
 comming soon
 
