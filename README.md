@@ -31,8 +31,8 @@ For hardware functions such as input and output and memory allocation, the opera
 ## Labs
 [labs](/labs)
 
-### ->lab10
-[Add a new system call with args to list all processes](/labs/lab10addnewsyscallarg)
+### ->lab11
+[Add a kernel module to list all processes](lab11linuxkernelmodulesimple)
 
 ## readings
 * [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)

@@ -33,6 +33,10 @@ operating system principles and labs
 ### lab10
 [Add a new system call with args to list all processes](/labs/lab10addnewsyscallarg)
 
+### lab11
+[Add a kernel module to list all processes](lab11linuxkernelmodulesimple)
+
+
 
 ### more
 comming soon
