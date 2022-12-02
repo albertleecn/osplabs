@@ -31,8 +31,8 @@ For hardware functions such as input and output and memory allocation, the opera
 ## Labs
 [labs](/labs)
 
-### ->lab11
-[Add a kernel module to list all processes](lab11linuxkernelmodulesimple)
+### ->lab12
+[Add a kernel module to read and write one specified file](lab12linuxkernelmodulechardevice)
 
 ## readings
 * [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)

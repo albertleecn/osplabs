@@ -36,6 +36,8 @@ operating system principles and labs
 ### lab11
 [Add a kernel module to list all processes](lab11linuxkernelmodulesimple)
 
+### lab12
+[Add a kernel module to read and write one specified file](lab12linuxkernelmodulechardevice)
 
 
 ### more
