@@ -2,7 +2,7 @@
 [Operating system](https://en.wikipedia.org/wiki/Operating_system) Principles and Labs
 
 ```
-读史兼怀计算机时代 2023
+读史兼怀计算机时代 2022
 茫茫天宇化神工，草木虫猿一脉同。
 万类轮回争剩勇，千秋疆场逞英雄。
 炉中铜铁刀光冷，沙里硅晶智力聪。
@@ -15,9 +15,6 @@ Time-sharing operating systems schedule tasks for efficient use of the system an
 
 For hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware,although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers.
 ![Operating System](/others/Operating_system_placement.svg.png)
-
-## remark
-[有话大家说](/remark)
 
 ## Coursewares
 [coursewares](/coursewares)
@@ -33,6 +30,9 @@ For hardware functions such as input and output and memory allocation, the opera
 
 ### ->HW01
 [HW01](/homeworks)
+
+## remark
+[有话大家说](/remark)
 
 ## readings
 * [General Public License, GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
