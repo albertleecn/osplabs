@@ -16,14 +16,14 @@ Time-sharing operating systems schedule tasks for efficient use of the system an
 For hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware,although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers.
 ![Operating System](/others/Operating_system_placement.svg.png)
 
-## Coursewares
-[coursewares](/coursewares)
-
 ## Labs
 [labs](/labs)
 
 ### ->lab01
-[Add a kernel module to read and write one specified file](/labs/lab01installlinux)
+[Install Ubuntu/Linux](/labs/lab01installlinux)
+
+## Coursewares
+[coursewares](/coursewares)
 
 ## Homeworks
 [homeworks](/homeworks)
