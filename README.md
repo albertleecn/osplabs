@@ -15,9 +15,6 @@
 ### ->lab01
 [Install Ubuntu/Linux](/labs/lab01installlinux)
 
-## Coursewares
-[coursewares](/coursewares)
-
 ## Homeworks
 [homeworks](/homeworks)
 
