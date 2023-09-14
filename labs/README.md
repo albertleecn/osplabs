@@ -1,4 +1,4 @@
-# operating system principles
+# operating system principles （OSP）
 operating system principles and labs
 
 ## Labs

@@ -1,5 +1,5 @@
 # OSP 2023 Fall
-[Operating system](https://en.wikipedia.org/wiki/Operating_system) Principles and Labs
+[Operating system principles (OSP)](https://en.wikipedia.org/wiki/Operating_system) Principles and Labs
 
 ```
 读史兼怀计算机时代 2022

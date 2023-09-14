@@ -63,7 +63,10 @@ sudo apt-get install build-essential
 Please Hello World, Hello Your Instructor, Hello Yourself
 
 4.3 Compile the program 
+
+```
 gcc -o hello  hello.c
+```
 
 4.4 Execute the program
 ```
