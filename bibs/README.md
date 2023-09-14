@@ -92,6 +92,8 @@ Pu, C., H. Massalin, and J. Ioannidis. “The Synthesis Kernel” 1970.
 
 Hunt, G.C. and J.R. Larus, Singularity: Rethinking the Software Stack. SIGOPS Oper. Syst. Rev., 2007. 41(2): p. 37–49.
 
+McKusick, Kirk M ,Bostic,et al.The design and implementation of the 4.4BSD operating system[J].Addison-Wesley, 1996.DOI:http://dx.doi.org/.
+
 ### Cases
 
 * [LINUX is obsolete](/others/LINUXisobsolete.pdf)
