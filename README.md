@@ -2,7 +2,7 @@
 [Operating system principles (OSP)](https://en.wikipedia.org/wiki/Operating_system) Principles and Labs
 
 ```
-读史兼怀计算机时代 2022
+读史兼怀计算机时代 AL
 茫茫天宇化神工，草木虫猿一脉同。
 万类轮回争剩勇，千秋疆场逞英雄。
 炉中铜铁刀光冷，沙里硅晶智力聪。
@@ -14,6 +14,7 @@
 
 ### ->lab01
 [Install Ubuntu/Linux](/labs/lab01installlinux)
+[Copy Dir with C/C++](/labs/lab02copydir)
 
 ## Homeworks
 [homeworks](/homeworks)

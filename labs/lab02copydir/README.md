@@ -5,10 +5,10 @@
 2. To implement copy one directory and it's subdiretories 
 3. GCC
 4. IDE 集成开发环境
-5. Test directory: (从www.kernel.org下载最新的linux内核linux-5.19.10.tar.xz)
-   1. https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.10.tar.xz
-   1. extract linux-5.19.10.tar.xz to linux-5.19.10 directory, 
-   2. and copy  linux-5.19.10 directory to  linux-5.19.10bak directory
+5. Test directory: (从www.kernel.org下载最新的linux内核linux-6.5.3.tar.xz)
+   1. https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.3.tar.xz
+   1. extract linux-6.5.3.tar.xz to linux-6.5.3 directory, 
+   2. and copy  linux-6.5.3 directory to  linux-6.5.3bak directory
 6. Verify that the directory copy is correct
 
 ## Tools
@@ -46,7 +46,7 @@ user	0m0.000s
 sys	0m0.000s
 
 
-$ time tar xvJf  linux-5.19.10.tar.xz 
+$ time tar xvJf  linux-6.5.3.tar.xz 
 
 real	0m28.554s
 user	0m7.738s
