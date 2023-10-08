@@ -12,9 +12,10 @@
 ## Labs
 [labs](/labs)
 
-### ->lab01
-[Install Ubuntu/Linux](/labs/lab01installlinux)
+### ->lab02
 [Copy Dir with C/C++](/labs/lab02copydir)
+#### last
+[Install Ubuntu/Linux](/labs/lab01installlinux)
 
 ## Homeworks
 [homeworks](/homeworks)
