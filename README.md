@@ -12,10 +12,11 @@
 ## Labs
 [labs](/labs)
 
-### ->lab02
-[Copy Dir with C/C++](/labs/lab02copydir)
+### ->lab03
+[compile the latest linux kernel](/labs/lab03compilelinux)
+
 #### last
-[Install Ubuntu/Linux](/labs/lab01installlinux)
+[Copy Dir with C/C++](/labs/lab02copydir)
 
 ## Homeworks
 [homeworks](/homeworks)
