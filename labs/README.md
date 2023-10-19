@@ -13,31 +13,34 @@ operating system principles and labs
 [Download and compile the latest linux kernel](/labs/lab03compilelinux)
 
 ### lab04
-[Add a new system call into the linux kernel](/labs/lab04addnewsyscall)
+[Write a c program to implement ps in user mode](/labs/lab04listprocessesinusermode)
 
 ### lab05
-[Add a new system call  to list all processes](/labs/lab05addnewsyscallb)
+[Add a new system call into the linux kernel](/labs/lab05addnewsyscall)
 
 ### lab06
-[copy one directory using multi-processes](/labs/lab06copydirwithmultiprocesses)
+[Add a new system call  to list all processes](/labs/lab06addnewsyscallb)
 
 ### lab07
-[copy one directory using multi-threads](/labs/lab07copydirwithmultithreads)
+[copy one directory using multi-processes](/labs/lab07copydirwithmultiprocesses)
 
 ### lab08
-[write a c program to implement product and comsumer problem](/labs/lab08ProductorComsumer)
+[copy one directory using multi-threads](/labs/lab08copydirwithmultithreads)
 
 ### lab09
-[write a c program to implement a mini-shell](/labs/lab09minishell)
+[write a c program to implement product and comsumer problem](/labs/lab09ProductorComsumer)
 
 ### lab10
-[Add a new system call with args to list all processes](/labs/lab10addnewsyscallarg)
+[write a c program to implement a mini-shell](/labs/lab10minishell)
 
 ### lab11
-[Add a kernel module to list all processes](lab11linuxkernelmodulesimple)
+[Add a new system call with args to list all processes](/labs/lab11addnewsyscallarg)
 
 ### lab12
-[Add a kernel module to read and write one specified file](lab12linuxkernelmodulechardevice)
+[Add a kernel module to list all processes](/labs/lab12linuxkernelmodulesimple)
+
+### lab13
+[Add a kernel module to read and write one specified file](/labs/lab13linuxkernelmodulechardevice)
 
 
 ### more

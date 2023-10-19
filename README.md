@@ -12,17 +12,18 @@
 ## Labs
 [labs](/labs)
 
-### ->lab03
-[compile the latest linux kernel](/labs/lab03compilelinux)
+### ->lab04
+[Write a c program to implement ps in user mode](/labs/lab04listprocessesinusermode)
 
 #### last
-[Copy Dir with C/C++](/labs/lab02copydir)
+[compile the latest linux kernel](/labs/lab03compilelinux)
 
 ## Homeworks
 [homeworks](/homeworks)
 
-### ->HW01
-[HW01](/homeworks)
+### ->HW02
+阅读GPL许可证，浅谈自由软件运动(free software)在新时代的价值
+[HW02](/homeworks)
 
 ## remark
 [有话大家说](/remark)
