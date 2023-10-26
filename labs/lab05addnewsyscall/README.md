@@ -1,4 +1,4 @@
-# Add a New System Call
+# Add a New System Call  to say hello
 
 ## Target
 1. Add a new system call into the linux kernel
@@ -15,48 +15,47 @@ sudo apt-get install build-essential
 ### How to use GCC
 * [gcc and make](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
-
 ## How to do
-see the pdf document: newsyscall2020.pdf
 
-### Step0 
+### Step0
 
-new customized kernel config: [config1](config_ubuntu2004_20211129), [config2](config_5_14_14_ubuntuok)
+new customized kernel config:6.5.x
 
-### Step1 (Linux kernel 5.19)
+### Step1 (Linux kernel 6.2+)
 
-include/linux/syscalls.h
-
-在文件(No. 1279)
+在文件 include/linux/syscalls.h (第1176行)
+```
 #endif /* CONFIG_ARCH_HAS_SYSCALL_WRAPPER */之前，添加一行:
 
 asmlinkage long sys_schello(void);
+```
 
-### Step2 (Linux kernel 5.19)
+### Step2 (Linux kernel 6.2+)
 
 kernel/sys.c
-在文件SYSCALL_DEFINE0(gettid)函数之后（No. 949），添加如下行:
+在文件SYSCALL_DEFINE0(gettid)函数之后（第958行 ），添加如下行:
 
+```
 SYSCALL_DEFINE0(schello)
 {
-printk("Hello new system call schello!Your ID\n");
+printk("Hello new system call schello!Your ID\n');
+print('Hello new system call schello! hello 学号\n');
 return 0;
 }
+```
 
-### Step3  (Linux kernel 5.19)
+### Step3  (Linux kernel 6.2+)
 
-针对64位OS
-arch/x86/entry/syscalls/syscall_64.tbl
-在文件334 common  memfd_secret        sys_memfd_secret 行之后，添加如下行:
-
-335 common schello sys_schello
+![s](limux_kernel_declare1.png)
 
 ### Step4
 
+```
 make clean
 make -j5
 sudo make modules_install
 sudo make install
+```
 
 ### Step 5
 
@@ -68,9 +67,10 @@ reboot
 
 ```
 uname -a
+// 注：显示和编译版本一致才为正确
 ```
 
-![new kernel](./linux_kernel_sc_01uname.png)
+![uname](linux_kernel_sc_01uname.png)
 
 
 ### Step 6
@@ -85,31 +85,29 @@ uname -a
 #define __NR_schello 336
 int main(int argc, char *argv[])
 {
- syscall(_NR_schello);
- print("ok! run dmesg | grep hello in terminal!\n");
+ syscall(_NR_schell0);
+ printf("ok! run the cmd in terminal: sudo dmesg | grep schello\n");
  return 0;
 }
 ```
-
-
 
 ### Step 7
 
 编译用户态测试程序testschello.c，并执行
 
 ```
+# 编译
 gcc -o testsc testschello.c
-
-$ sudo dmesg -C
-
+# 运行
 ./testsc
-
-$dmesg | grep schello
-
-[ 1648.215250] Hello new system call schello!
-
+sudo dmesg | grep schello
 ```
 
-![testsc](./linux_kernel_sc_01testsc.png)
+![testsc](linux_kernel_sc_01testsc.png)
+
+### Task (lab05)
+
+* 实现上述实例，并输出linux kernel版本号和你的“学号”
+* 撰写实验报告
 
 ### End.

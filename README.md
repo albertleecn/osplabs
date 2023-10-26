@@ -12,11 +12,11 @@
 ## Labs
 [labs](/labs)
 
-### ->lab04
-[Write a c program to implement ps in user mode](/labs/lab04listprocessesinusermode)
+### ->lab05
+[Add a New System Call  to say hello](/labs/lab05addnewsyscall)
 
 #### last
-[compile the latest linux kernel](/labs/lab03compilelinux)
+[Write a c program to implement ps in user mode](/labs/lab04listprocessesinusermode)
 
 ## Homeworks
 [homeworks](/homeworks)
