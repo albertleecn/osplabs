@@ -19,10 +19,10 @@ operating system principles and labs
 [Add a new system call into the linux kernel](/labs/lab05addnewsyscall)
 
 ### lab06
-[Add a new system call  to list all processes](/labs/lab06addnewsyscallb)
+[Write a c/c++ program to implement copy one directory(linux kernel 6.5.9) with multi-processes](/labs/lab06copydirwithmultiprocesses)
 
 ### lab07
-[copy one directory using multi-processes](/labs/lab07copydirwithmultiprocesses)
+[Add a new system call  to list all processes](/labs/lab07addnewsyscallb)
 
 ### lab08
 [copy one directory using multi-threads](/labs/lab08copydirwithmultithreads)

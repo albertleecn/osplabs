@@ -12,11 +12,11 @@
 ## Labs
 [labs](/labs)
 
-### ->lab05
-[Add a New System Call  to say hello](/labs/lab05addnewsyscall)
+### ->lab06
+[Write a c/c++ program to implement copy one directory(linux kernel 6.5.9) with multi-processes](/labs/lab06copydirwithmultiprocesses)
 
-#### last
-[Write a c program to implement ps in user mode](/labs/lab04listprocessesinusermode)
+#### last： lab05
+[Add a New System Call  to say hello](/labs/lab05addnewsyscall)
 
 ## Homeworks
 [homeworks](/homeworks)
