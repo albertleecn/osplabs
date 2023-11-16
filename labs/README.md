@@ -31,16 +31,19 @@ operating system principles and labs
 [write a c program to implement product and comsumer problem](/labs/lab09ProductorComsumer)
 
 ### lab10
-[write a c program to implement a mini-shell](/labs/lab10minishell)
+[write a c program to implement the sleeping barber problem](/labs/lab10SleepingBarberProblem)
 
 ### lab11
 [Add a new system call with args to list all processes](/labs/lab11addnewsyscallarg)
 
 ### lab12
-[Add a kernel module to list all processes](/labs/lab12linuxkernelmodulesimple)
+[write a c program to implement a mini-shell](/labs/lab12minishell)
 
 ### lab13
-[Add a kernel module to read and write one specified file](/labs/lab13linuxkernelmodulechardevice)
+[Add a kernel module to list all processes](/labs/lab13linuxkernelmodulesimple)
+
+### lab14
+[Add a kernel module to read and write one specified file](/labs/lab14linuxkernelmodulechardevice)
 
 
 ### more

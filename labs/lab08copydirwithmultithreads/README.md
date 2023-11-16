@@ -1,16 +1,16 @@
 # Write a c/c++ program to implement copy one diretory with multi-threads
 
 ## Target
-1. Write a c/c++ program
+1. Write a c/c++ program with multi-threads
 
 2. To implement copy one diretory and it's subdiretories with multi-threads
 
 3. GCC
 
-4. Test directory:(从www.kernel.org下载最新的linux内核linux-5.19.10.tar.xz)
-   1. https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.10.tar.xz
-   1. extract linux-5.19.10.tar.xz to linux-5.19.10 directory, 
-   2. and copy linux-5.19.10 directory to linux-5.19.10bak directory
+4. Test directory: 使用最新的Linux Kernel来测试(从www.kernel.org下载最新的linux内核)
+   1. https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.9.tar.xz
+   2. extract linux-6.5.9.tar.xz to linux-6.5.9 directory, 
+   3. and copy linux-6.5.9 directory to linux-6.5.9bak directory
    
 5. Verify that the directory copy is correct
 
@@ -29,6 +29,23 @@ sudo apt-get install build-essential
 务必加上r参数
 ```
 diff -r DirA DirB
+```
+
+### get the total time of program execution
+```
+$ time pwd
+/mnt/test2linux
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+
+$ time tar xvJf  linux-6.5.9.tar.xz 
+
+real	0m28.554s
+user	0m7.738s
+sys	0m3.554s
 ```
 
 ### structure of directory
@@ -91,15 +108,6 @@ int main(int argc, char *argv[])
 }
 ```
 
-
-### get the total time of program execution
-```
-$ time tar xvJf linux-5.14.14.tar.xz 
-
-real	0m28.554s
-user	0m7.738s
-sys	0m3.554s
-```
 
 ## How to do
 
@@ -170,6 +178,8 @@ main(void)
            break;
            }
           usleep(2000);
+		  pthread_join(tid, 0);
+		  break；
     }
 }
 ```

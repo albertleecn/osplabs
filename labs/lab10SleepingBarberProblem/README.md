@@ -1,8 +1,8 @@
-# Write a c program to implement product and consumer problem using multi-threads
+# Write a c program to implement the sleeping barber problem
 
 ## Target
 1. Write a c/c++ program
-2. To implement product and consumer problem using multi-threads
+2. To implement the sleeping barber problem using multi-threads
 3. GCC
 
 ## Tools
@@ -133,65 +133,30 @@ int main(int argc, char *argv[])
 * rand() /* generatea random*/
 * Sleep() /*msec*/
 
-### get the total time of program execution
-```
-$ time tar xvJf linux-6.5.9.tar.xz 
-
-real	0m28.554s
-user	0m7.738s
-sys	0m3.554s
-```
-
 ## How to do
 
-write a c program to implement product and consumer problem using multi-threads
+* write a c program to implement the sleeping barber problem using multi-threads
 
-实现I个生产者J个消费者问题，其中共享缓冲区的大小为N，所有生产者共生产K(K>N)个产品后结束，所有消费者共消费K个产品后结束。
+  * 理发店有1名理发师、1把理发椅和N（=3）把供等待理发的顾客暂坐的椅子；
+  * 如果没有顾客，理发师则在理发椅上睡觉；
+  * 当一个顾客来了，他叫醒理发师为其理发，理发的平均时间是5；
+  * 如果理发师正在理发时有顾客来了，如果此时有空着的暂坐椅子，就坐下来等着，否则就离开理发师；
+  * 累计随机来了30位顾客，最后理发师和顾客都结束。
 
 具体要求
-* 严格按时序输出每个生产者、消费者的行为，其中包括生产产品k、消费产品k、进入临界区、存入产品、取出产品、离开临界区；
-* 需要考虑边界（某生产者生产第K个产品后所有生产者结束；某消费者消费第K个产品后所有消费者结束）
-* 需要考虑随机函数，生产者生产时需要一个随机时间；消费者消费时也需要一个随机时间；
-* 编号：无论生产者还是消费者都需要有编号；产品同样也需要编号；缓冲区的各个产品项也需要有编号；
-* 输出形式可以采用标准输出、图形动态显示及同时文字记录输出等方式，无论是生产者还是消费者，其主要输出内容如下：
-  a)	进入临界区前，输出某某编号（生产者/消费者）线程准备进入临界区
-  b)	进入临界区后，输出某某编号（生产者/消费者）线程已进入临界区
-  c)	离开临界区后，输出某某编号（生产者/消费者）线程已离开临界区
-  d)	生产者生产一个产品时，需要输出产品信息；
-  e)	生产者将产品放入缓冲区时，需要输出相关信息；
-  f)	消费者将产品从缓冲区取出时，需要输出相关信息；
-  g)	消费者消费一个产品时，需要输出产品信息；
+* 严格按时序输出每个顾客、理发师的行为，以及理发店暂坐椅子的状态；
+* 需要考虑边界（累计随机来了30位顾客，最后理发师和顾客都结束。）
+* 需要考虑随机函数，理发师理发时需要一个随机时间；顾客到来也需要一个随机时间；
+* 编号：无论理发师还是顾客都需要有编号；
+* 输出形式可以采用标准输出、图形动态显示及同时文字记录输出等方式，无论是理发师还是顾客，其主要输出内容如下：
+  a)	进入临界区前，输出某某编号（理发师/顾客）线程准备进入临界区
+  b)	进入临界区后，输出某某编号（理发师/顾客）线程已进入临界区
+  c)	离开临界区后，输出某某编号（理发师/顾客）线程已离开临界区
+  d)	理发师给一个顾客理发开始和结束时，需要输出相关信息；
+  e)	顾客进店、暂坐、理发、离店时，需要输出相关信息；
 * 不能出现竞态
 * 不能出现忙等待
 
 ### 结构体声明（参考）
 
-```
-#define DATA_SIZE 256
-```
-
-```
-/*产品结构体声明*/
-typedef struct item_st {
-int id /*产品编号*/
-time_t timestamp_p; /*生产时间*/
-int produce_id; /生产者编号*/
-DWORD checksum; /* 产品校验码*/
-DWORD data[DATA_SIZE]; /* 产品详细信息*/
-} ITEM_ST;
-```
-
-```
-/*缓冲区结构体声明*/
-typedef struct buffer_st {
-int id; /*缓冲区编号*/
-boolean isempty; /*是否为空*/
-ITEM_ST item; /*具体产品*/
-buffer_st* nextbuf; /*下一个缓冲区首地址*/
-} BUFFER_ST;
-```
-
-### 也可以考虑Windows平台
-
-详细见PDF附件。
-
+参考教材算法。
